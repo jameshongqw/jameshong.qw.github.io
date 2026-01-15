@@ -164,7 +164,18 @@ header#title-block-header {
   border-radius: 2px;
 }
 
-.tagline {
+.hero-desc {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--text-light);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin: 2rem 0 0 0;
+}
+
+.tagline,
+.tagline p {
   font-family: 'Rajdhani', sans-serif;
   font-size: 1.2rem;
   font-weight: 600;
@@ -172,6 +183,10 @@ header#title-block-header {
   letter-spacing: 0.3em;
   text-transform: uppercase;
   margin: 1.5rem 0 2rem 0;
+}
+
+.tagline p {
+  margin: 0;
 }
 
 .status-bar {
@@ -193,12 +208,21 @@ header#title-block-header {
   border-left: 3px solid var(--secondary);
 }
 
+.status-item > p {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
 .status-label {
   font-size: 0.7rem;
   font-weight: 600;
   color: var(--text-muted);
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  display: block;
 }
 
 .status-value {
@@ -206,6 +230,7 @@ header#title-block-header {
   font-size: 0.9rem;
   font-weight: 700;
   color: var(--primary);
+  display: block;
 }
 
 .status-value.online {
@@ -215,28 +240,33 @@ header#title-block-header {
 /* ========================================
    SECTION CONTAINERS
    ======================================== */
-.section-container {
+.section-container,
+section.section-container,
+section.section-title.section-container {
   width: 100%;
   padding: 5rem 2rem;
   background: var(--dark-1);
 }
 
 .section-container > h2,
-.section-container > .section-title {
+.section-container > .section-title,
+section.section-container > h2 {
   max-width: 1200px;
   margin: 0 auto 3rem auto;
 }
 
-.section-container > div:not(.section-title) {
+.section-container > div:not(.section-title),
+section.section-container > div {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.dark-section {
+.dark-section,
+section.dark-section {
   background: var(--dark-2) !important;
 }
 
-.section-title {
+h2.section-title {
   font-family: 'Orbitron', sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
@@ -248,8 +278,8 @@ header#title-block-header {
   gap: 1.5rem;
 }
 
-.section-title::before,
-.section-title::after {
+h2.section-title::before,
+h2.section-title::after {
   content: '';
   height: 2px;
   width: 60px;
@@ -273,7 +303,8 @@ header#title-block-header {
   }
 }
 
-.about-text h3 {
+.about-text h3,
+section.about-text h3 {
   font-family: 'Orbitron', sans-serif;
   font-size: 1.4rem;
   margin-bottom: 1.5rem;
@@ -283,7 +314,8 @@ header#title-block-header {
   background-clip: text;
 }
 
-.about-text p {
+.about-text p,
+section.about-text p {
   color: var(--text-light);
   font-size: 1.05rem;
   margin-bottom: 1rem;
@@ -293,6 +325,14 @@ header#title-block-header {
 .about-image {
   display: flex;
   justify-content: center;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 16px;
+  border: 3px solid var(--dark-4);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 /* ========================================
@@ -324,10 +364,19 @@ header#title-block-header {
   opacity: 0.3;
 }
 
+/* Handle Quarto p wrapper */
+.placeholder-box > p {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
 .placeholder-icon {
   font-size: 3rem;
-  margin-bottom: 0.8rem;
   opacity: 0.5;
+  display: block;
 }
 
 .placeholder-text {
@@ -336,20 +385,21 @@ header#title-block-header {
   font-weight: 600;
   color: var(--text-muted);
   letter-spacing: 0.1em;
+  display: block;
 }
 
 .placeholder-size {
   font-size: 0.7rem;
   color: var(--text-muted);
   opacity: 0.6;
-  margin-top: 0.4rem;
+  display: block;
 }
 
 .placeholder-note {
   font-size: 0.65rem;
   color: var(--secondary);
-  margin-top: 0.4rem;
   font-weight: 600;
+  display: block;
 }
 
 .image-placeholder {
@@ -407,17 +457,31 @@ header#title-block-header {
   flex-shrink: 0;
 }
 
-.stat-info {
+/* Handle Quarto wrapping span in p */
+.stat-card > p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-info,
+section.stat-info {
   flex: 1;
   min-width: 0;
 }
 
-.stat-info h3 {
+.stat-info h3,
+section.stat-info h3 {
   font-family: 'Orbitron', sans-serif;
   font-size: 0.85rem;
   font-weight: 600;
   margin: 0 0 0.5rem 0;
   color: var(--text-white);
+}
+
+.stat-info > p {
+  margin: 0;
 }
 
 .stat-bar {
@@ -505,12 +569,14 @@ header#title-block-header {
   display: none;
 }
 
-.game-info {
+.game-info,
+section.game-info {
   padding: 1.2rem;
   border-top: 1px solid var(--dark-4);
 }
 
-.game-info h3 {
+.game-info h3,
+section.game-info h3 {
   font-family: 'Orbitron', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
@@ -518,7 +584,8 @@ header#title-block-header {
   color: var(--text-white);
 }
 
-.game-info p {
+.game-info p,
+section.game-info p {
   color: var(--text-muted);
   font-size: 0.85rem;
   font-weight: 500;
@@ -546,14 +613,23 @@ header#title-block-header {
   min-height: 250px;
 }
 
-.video-description {
+.video-container iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 12px;
+  border: none;
+}
+
+.video-description,
+section.video-description {
   padding: 1.5rem;
   background: var(--dark-3);
   border-radius: 12px;
   border-left: 4px solid var(--secondary);
 }
 
-.video-description h3 {
+.video-description h3,
+section.video-description h3 {
   font-family: 'Orbitron', sans-serif;
   font-size: 1.2rem;
   margin: 0 0 1rem 0;
@@ -563,7 +639,8 @@ header#title-block-header {
   background-clip: text;
 }
 
-.video-description p {
+.video-description p,
+section.video-description p {
   color: var(--text-light);
   font-size: 0.95rem;
   margin: 0;
@@ -632,6 +709,13 @@ header#title-block-header {
   border: 1px solid var(--dark-4);
 }
 
+.achievement > p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .achievement-icon {
   font-size: 1.8rem;
   width: 55px;
@@ -663,18 +747,27 @@ header#title-block-header {
   color: white;
 }
 
-.achievement-info {
+.achievement-info,
+section.achievement-info {
   flex: 1;
   min-width: 0;
 }
 
-.achievement-info strong {
+.achievement-info strong,
+section.achievement-info strong,
+.achievement-info p strong,
+section.achievement-info p strong {
   display: block;
   font-family: 'Orbitron', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--text-white);
   margin-bottom: 0.2rem;
+}
+
+.achievement-info > p,
+section.achievement-info > p {
+  margin: 0;
 }
 
 .achievement-desc {
@@ -724,13 +817,18 @@ header#title-block-header {
   background: var(--gradient-1);
 }
 
+.connect-card > p {
+  margin: 0 0 0.5rem 0;
+}
+
 .connect-icon {
   font-size: 2rem;
   display: block;
   margin-bottom: 0.8rem;
 }
 
-.connect-card strong {
+.connect-card strong,
+.connect-card p strong {
   font-family: 'Orbitron', sans-serif;
   display: block;
   font-size: 0.85rem;
@@ -765,6 +863,10 @@ header#title-block-header {
   right: 0;
   height: 2px;
   background: var(--gradient-1);
+}
+
+.footer-section > p {
+  margin: 0 0 0.5rem 0;
 }
 
 .footer-text {

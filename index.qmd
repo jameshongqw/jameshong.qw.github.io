@@ -5,233 +5,128 @@ format:
     toc: false
 ---
 
+::: {.hero-section}
+::: {.hero-content}
 
-<section class="hero-section">
-<div class="hero-content">
-<h1 class="glitch-text">JAMES HONG</h1>
-<div class="tagline">Gamer | Tech | Kickboxing</div>
-<div class="status-bar">
-<div class="status-item">
-<span class="status-label">STATUS</span>
-<span class="status-value online">ONLINE</span>
-</div>
-<div class="status-item">
-<span class="status-label">CURRENT QUEST</span>
-<span class="status-value">Data Engineering</span>
-</div>
-</div>
-</div>
-</section>
+# JAMES HONG {.glitch-text}
 
-<section class="section-container">
-<h2 class="section-title">ABOUT ME</h2>
-<div class="about-grid">
-<div class="about-text">
-<h3>The Origin Story</h3>
-<p>My journey into the digital realm began at a young age, where I discovered the magic of video games. What started as button-mashing on my first console quickly evolved into a deep fascination with the technology behind the screens. I wasn't just playing games—I was wondering how they were made, how the graphics rendered so smoothly, and how online multiplayer could connect players from across the world.</p>
-<p>This curiosity sparked a passion for technology that would shape my entire future. After completing secondary school, I knew exactly where I wanted to go—Nanyang Polytechnic, where I pursued a diploma in Infocomm Technology. Those three years were transformative, diving deep into programming, networking, and software development. It was there that I truly leveled up my technical skills and confirmed that tech was my calling.</p>
-<p>But the quest didn't end there. Hungry for more knowledge and driven to specialize, I enrolled at the Singapore Institute of Technology to pursue a degree in Fintech. Now I'm combining my love for technology with the exciting world of finance, learning about blockchain, digital payments, and the future of financial services. It's like unlocking a new game mode—challenging, rewarding, and full of possibilities.</p>
-<p>When I'm not grinding through assignments or exploring new technologies, you'll still find me gaming. Some things never change—it's where I recharge, connect with friends, and remind myself why I fell in love with tech in the first place.</p>
-</div>
-<div class="about-image">
-<div class="placeholder-box image-placeholder">
-<span class="placeholder-icon">📷</span>
-<span class="placeholder-text">YOUR PHOTO HERE</span>
-<span class="placeholder-size">400 x 400px</span>
-</div>
-</div>
-</div>
-</section>
+<p class="hero-desc">Gamer | SIT Fintech Student</p>
 
-<section class="section-container dark-section">
-<h2 class="section-title">CHARACTER STATS</h2>
-<div class="stats-grid">
-<div class="stat-card">
-<div class="stat-icon">🎮</div>
-<div class="stat-info">
-<h3>Gaming</h3>
-<div class="stat-bar"><div class="stat-fill stat-95"></div></div>
-<span class="stat-value">95/100</span>
-</div>
-</div>
-<div class="stat-card">
-<div class="stat-icon">💻</div>
-<div class="stat-info">
-<h3>Coding</h3>
-<div class="stat-bar"><div class="stat-fill stat-80"></div></div>
-<span class="stat-value">80/100</span>
-</div>
-</div>
-<div class="stat-card">
-<div class="stat-icon">☕</div>
-<div class="stat-info">
-<h3>Coffee Consumption</h3>
-<div class="stat-bar"><div class="stat-fill stat-100"></div></div>
-<span class="stat-value">MAX</span>
-</div>
-</div>
-<div class="stat-card">
-<div class="stat-icon">😴</div>
-<div class="stat-info">
-<h3>Sleep</h3>
-<div class="stat-bar"><div class="stat-fill stat-30"></div></div>
-<span class="stat-value">30/100</span>
-</div>
-</div>
-</div>
-</section>
+:::
+:::
 
-<section class="section-container">
-<h2 class="section-title">FAVORITE GAMES</h2>
-<div class="games-grid">
-<div class="game-card">
-<div class="placeholder-box game-placeholder">
-<span class="placeholder-icon">🎮</span>
-<span class="placeholder-text">GAME IMAGE 1</span>
-<span class="placeholder-size">300 x 200px</span>
-</div>
-<div class="game-info">
-<h3>Game Title Here</h3>
-<p>RPG / Adventure</p>
-</div>
-</div>
-<div class="game-card">
-<div class="placeholder-box game-placeholder">
-<span class="placeholder-icon">🎮</span>
-<span class="placeholder-text">GAME IMAGE 2</span>
-<span class="placeholder-size">300 x 200px</span>
-</div>
-<div class="game-info">
-<h3>Game Title Here</h3>
-<p>FPS / Competitive</p>
-</div>
-</div>
-<div class="game-card">
-<div class="placeholder-box game-placeholder">
-<span class="placeholder-icon">🎮</span>
-<span class="placeholder-text">GAME IMAGE 3</span>
-<span class="placeholder-size">300 x 200px</span>
-</div>
-<div class="game-info">
-<h3>Game Title Here</h3>
-<p>Strategy / MOBA</p>
-</div>
-</div>
-<div class="game-card">
-<div class="placeholder-box game-placeholder">
-<span class="placeholder-icon">🎮</span>
-<span class="placeholder-text">GAME IMAGE 4</span>
-<span class="placeholder-size">300 x 200px</span>
-</div>
-<div class="game-info">
-<h3>Game Title Here</h3>
-<p>Open World / Sandbox</p>
-</div>
-</div>
-</div>
-</section>
+::: {.section-container}
 
-<section class="section-container dark-section">
-<h2 class="section-title">GAMEPLAY HIGHLIGHTS</h2>
-<div class="video-section">
-<div class="video-container">
-<div class="placeholder-box video-placeholder">
-<span class="placeholder-icon">▶</span>
-<span class="placeholder-text">EMBED YOUR VIDEO HERE</span>
-<span class="placeholder-size">YouTube / Twitch Embed</span>
-<span class="placeholder-note">Replace with iframe embed code</span>
-</div>
-</div>
-<div class="video-description">
-<h3>Epic Moments Compilation</h3>
-<p>Watch my greatest gaming achievements, clutch plays, and unforgettable moments from various games. From impossible comebacks to pixel-perfect speedruns, this reel showcases the highlights of my gaming journey.</p>
-</div>
-</div>
-</section>
+## ORIGIN STORY {.section-title}
 
-<section class="section-container">
-<h2 class="section-title">MY SETUP</h2>
-<div class="setup-grid">
-<div class="setup-item">
-<div class="placeholder-box setup-placeholder">
-<span class="placeholder-icon">🖥️</span>
-<span class="placeholder-text">SETUP PHOTO 1</span>
-<span class="placeholder-size">400 x 300px</span>
-</div>
-<p class="setup-caption">Battle Station Overview</p>
-</div>
-<div class="setup-item">
-<div class="placeholder-box setup-placeholder">
-<span class="placeholder-icon">⌨️</span>
-<span class="placeholder-text">SETUP PHOTO 2</span>
-<span class="placeholder-size">400 x 300px</span>
-</div>
-<p class="setup-caption">Peripherals & Gear</p>
-</div>
-</div>
-</section>
+::: {.about-grid}
+::: {.about-text}
 
-<section class="section-container dark-section">
-<h2 class="section-title">ACHIEVEMENTS UNLOCKED</h2>
-<div class="achievements-grid">
-<div class="achievement">
-<div class="achievement-icon gold">🏆</div>
-<div class="achievement-info">
-<strong>First Place Finish</strong>
-<span class="achievement-desc">Won a competitive gaming tournament</span>
-</div>
-</div>
-<div class="achievement">
-<div class="achievement-icon silver">🌟</div>
-<div class="achievement-info">
-<strong>100% Completion</strong>
-<span class="achievement-desc">Fully completed 10+ games</span>
-</div>
-</div>
-<div class="achievement">
-<div class="achievement-icon bronze">👑</div>
-<div class="achievement-info">
-<strong>Community Leader</strong>
-<span class="achievement-desc">Built a gaming community of 1000+ members</span>
-</div>
-</div>
-<div class="achievement">
-<div class="achievement-icon special">⚡</div>
-<div class="achievement-info">
-<strong>Speed Demon</strong>
-<span class="achievement-desc">Set a personal speedrun record</span>
-</div>
-</div>
-</div>
-</section>
+### The Origin Story
 
-<section class="section-container">
-<h2 class="section-title">CONNECT WITH ME</h2>
-<div class="connect-grid">
-<div class="connect-card">
-<span class="connect-icon">💬</span>
-<strong>Discord</strong>
-<span class="connect-handle">YourHandle#0000</span>
-</div>
-<div class="connect-card">
-<span class="connect-icon">📺</span>
-<strong>Twitch</strong>
-<span class="connect-handle">YourTwitchChannel</span>
-</div>
-<div class="connect-card">
-<span class="connect-icon">📹</span>
-<strong>YouTube</strong>
-<span class="connect-handle">YourYouTubeChannel</span>
-</div>
-<div class="connect-card">
-<span class="connect-icon">📧</span>
-<strong>Email</strong>
-<span class="connect-handle">your@email.com</span>
-</div>
-</div>
-</section>
+My journey into the digital realm began at a young age, where I discovered the magic of video games. What started as button-mashing on my first console quickly evolved into a deep fascination with the technology behind the screens. I wasn't just playing games—I was wondering how they were made, how the graphics rendered so smoothly, and how online multiplayer could connect players from across the world.
 
-<footer class="footer-section">
-<span class="footer-text">PRESS START TO CONTINUE</span>
-<span class="footer-subtext">© 2025 James Hong | Game On!</span>
-</footer>
+This curiosity sparked a passion for technology that would shape my entire future. After completing secondary school, I knew exactly where I wanted to go—Nanyang Polytechnic, where I pursued a diploma in Infocomm Technology. Those three years were transformative, diving deep into programming, networking, and software development. It was there that I truly leveled up my technical skills and confirmed that tech was my calling.
+
+But the quest didn't end there. Hungry for more knowledge and driven to specialize, I enrolled at the Singapore Institute of Technology to pursue a degree in Fintech. Now I'm combining my love for technology with the exciting world of finance, learning about blockchain, digital payments, and the future of financial services. It's like unlocking a new game mode—challenging, rewarding, and full of possibilities.
+
+When I'm not grinding through assignments or exploring new technologies, you'll still find me gaming. Some things never change—it's where I recharge, connect with friends, and remind myself why I fell in love with tech in the first place.
+
+:::
+
+::: {.about-image}
+![Profile Photo](images/profile.png){.profile-image}
+:::
+:::
+
+:::
+
+::: {.section-container .dark-section}
+
+## CHARACTER STATS {.section-title}
+
+::: {.stats-grid}
+::: {.stat-card}
+[🎮]{.stat-icon}
+
+::: {.stat-info}
+### Gaming {.stat-name}
+
+::: {.stat-bar}
+::: {.stat-fill .stat-95}
+:::
+:::
+
+[95/100]{.stat-value}
+:::
+:::
+
+::: {.stat-card}
+[💻]{.stat-icon}
+
+::: {.stat-info}
+### Coding {.stat-name}
+
+::: {.stat-bar}
+::: {.stat-fill .stat-80}
+:::
+:::
+
+[80/100]{.stat-value}
+:::
+:::
+
+::: {.stat-card}
+[☕]{.stat-icon}
+
+::: {.stat-info}
+### Coffee Consumption {.stat-name}
+
+::: {.stat-bar}
+::: {.stat-fill .stat-100}
+:::
+:::
+
+[MAX]{.stat-value}
+:::
+:::
+
+::: {.stat-card}
+[😴]{.stat-icon}
+
+::: {.stat-info}
+### Sleep {.stat-name}
+
+::: {.stat-bar}
+::: {.stat-fill .stat-30}
+:::
+:::
+
+[30/100]{.stat-value}
+:::
+:::
+:::
+
+:::
+
+::: {.section-container}
+
+## FAVOURITE CREATOR {.section-title}
+
+::: {.video-section}
+::: {.video-container}
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Lpufnc14JAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
+
+::: {.video-description}
+### Wiljum - Rust Content Creator
+
+One of my favourite gaming content creators! Wiljum creates incredible Rust gameplay videos with cinematic storytelling. His videos showcase epic raids, intense PvP battles, and hilarious moments that keep me entertained for hours. If you're into survival games, his content is a must-watch.
+:::
+:::
+
+:::
+
+::: {.footer-section}
+[© 2025 James Hong | Game On!]{.footer-subtext}
+:::
