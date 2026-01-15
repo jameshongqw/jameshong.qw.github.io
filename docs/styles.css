@@ -314,6 +314,116 @@ section.tech-item p {
   margin: 0;
 }
 
+/* ========================================
+   DATA VISUALIZATION PAGE STYLES
+   ======================================== */
+.chart-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--dark-4);
+}
+
+.chart-caption {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.chart-caption strong {
+  color: var(--text-light);
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .story-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.story-card,
+section.story-card {
+  background: var(--dark-3);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid var(--dark-4);
+  border-left: 4px solid var(--secondary);
+}
+
+.story-card h3,
+section.story-card h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.story-card p,
+section.story-card p {
+  color: var(--text-light);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.rationale-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .rationale-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.rationale-item,
+section.rationale-item {
+  background: var(--dark-3);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid var(--dark-4);
+  position: relative;
+}
+
+.rationale-item::before,
+section.rationale-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--gradient-1);
+  border-radius: 12px 12px 0 0;
+}
+
+.rationale-item h3,
+section.rationale-item h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.95rem;
+  color: var(--primary);
+  margin-bottom: 0.8rem;
+}
+
+.rationale-item p,
+section.rationale-item p {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
 .tagline,
 .tagline p {
   font-family: 'Rajdhani', sans-serif;

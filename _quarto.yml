@@ -10,6 +10,8 @@ website:
         text: Home
       - href: about.qmd
         text: FYP Project
+      - href: visualization.qmd
+        text: Data Visualization
 
 format:
   html:

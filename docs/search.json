@@ -75,5 +75,47 @@
     "title": "FYP Project",
     "section": "KEY LEARNINGS",
     "text": "KEY LEARNINGS\n\nThis project taught me invaluable lessons beyond just coding. I learned to conduct user research, iterate based on feedback, and balance technical feasibility with user needs. Working on a full-stack application from concept to deployment gave me a holistic understanding of the software development lifecycle.\nMost importantly, I discovered my passion for creating technology that makes a real difference in people’s lives. FinYouth wasn’t just a graduation requirement—it was a glimpse into the kind of meaningful work I want to pursue in my career."
+  },
+  {
+    "objectID": "visualization.html",
+    "href": "visualization.html",
+    "title": "Data Visualization & Reflection",
+    "section": "",
+    "text": "Bitcoin Price Analysis\n\n\nAdded as alternative (No Data Visualization Projects on Hand ATM)"
+  },
+  {
+    "objectID": "visualization.html#the-visualization",
+    "href": "visualization.html#the-visualization",
+    "title": "Data Visualization & Reflection",
+    "section": "THE VISUALIZATION",
+    "text": "THE VISUALIZATION\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1: Bitcoin (BTC) to USD price chart showing daily candlestick data. The visualization displays open, high, low, and close prices over time, with volume data shown below."
+  },
+  {
+    "objectID": "visualization.html#what-is-being-visualized",
+    "href": "visualization.html#what-is-being-visualized",
+    "title": "Data Visualization & Reflection",
+    "section": "WHAT IS BEING VISUALIZED",
+    "text": "WHAT IS BEING VISUALIZED\n\nThis interactive chart visualizes Bitcoin’s price movement against the US Dollar over time. The data is sourced from Bitstamp, one of the oldest cryptocurrency exchanges, ensuring reliable historical price data.\n\nQuantitative Data Displayed:\n\nPrice (Y-axis): The USD value of one Bitcoin, ranging from historical lows to all-time highs\nTime (X-axis): Chronological progression showing price evolution over days, weeks, months, or years\nCandlesticks: Each candle represents a time period showing four key values:\n\nOpen: Price at the start of the period\nClose: Price at the end of the period\nHigh: Maximum price reached during the period\nLow: Minimum price reached during the period\n\nVolume: The amount of Bitcoin traded during each period, displayed as bars at the bottom\n\nThe color coding (green for upward movement, red for downward) provides immediate visual feedback on market sentiment and price direction."
+  },
+  {
+    "objectID": "visualization.html#the-story-behind-this",
+    "href": "visualization.html#the-story-behind-this",
+    "title": "Data Visualization & Reflection",
+    "section": "THE STORY BEHIND THIS",
+    "text": "THE STORY BEHIND THIS\n\n\nMy Introduction to Crypto\nMy fascination with cryptocurrency began during my polytechnic years when Bitcoin first started making headlines. As someone passionate about technology, the concept of decentralized digital currency built on blockchain technology immediately captured my interest. It wasn’t just about the potential financial gains—it was about witnessing a technological revolution unfold in real-time.\n\n\nWhy Bitcoin Matters to Me\nBitcoin represents more than just a digital asset. It’s a paradigm shift in how we think about money, trust, and financial systems. As a Fintech student at SIT, understanding cryptocurrency and blockchain technology isn’t just a hobby—it’s essential knowledge for my future career. The intersection of finance and technology is exactly where I want to be.\n\n\n\nI’ve spent countless hours analyzing charts, understanding market cycles, and learning about the technology behind various cryptocurrencies. This visualization represents that journey—a visual representation of an asset class that has taught me about markets, volatility, risk management, and the importance of doing your own research."
+  },
+  {
+    "objectID": "visualization.html#visualization-rationale",
+    "href": "visualization.html#visualization-rationale",
+    "title": "Data Visualization & Reflection",
+    "section": "VISUALIZATION RATIONALE",
+    "text": "VISUALIZATION RATIONALE\n\n\nWhy Candlestick Charts?\nCandlestick charts were chosen over simple line charts because they convey four data points per time period instead of just one. This provides a much richer understanding of price action, showing not just where the price ended, but the entire journey it took to get there. The visual pattern recognition possible with candlesticks is invaluable for understanding market behavior.\n\n\nWhy Include Volume?\nVolume is the heartbeat of the market. Price movements accompanied by high volume are more significant than those with low volume. Including volume data adds another dimension to the analysis, helping distinguish between meaningful price movements and noise.\n\n\nWhy Dark Theme?\nBeyond aesthetic preference, the dark theme reduces eye strain during extended chart analysis sessions. Most professional traders prefer dark interfaces, and it aligns with the overall gaming-inspired theme of this portfolio website.\n\n\nWhy Interactive?\nStatic images become outdated immediately. An interactive, real-time chart allows viewers to explore the data themselves—zooming into specific periods, changing timeframes, and examining exact values. This transforms passive viewing into active exploration."
+  },
+  {
+    "objectID": "visualization.html#key-insights",
+    "href": "visualization.html#key-insights",
+    "title": "Data Visualization & Reflection",
+    "section": "KEY INSIGHTS",
+    "text": "KEY INSIGHTS\n\nAnalyzing Bitcoin’s price history reveals several important patterns:\n\nCyclical Nature: Bitcoin follows roughly 4-year cycles, often correlated with its “halving” events where mining rewards are cut in half\nVolatility: The dramatic price swings demonstrate both the opportunities and risks in cryptocurrency markets\nAdoption Curve: The overall upward trend over longer timeframes reflects growing institutional and retail adoption\nMarket Psychology: The chart patterns reveal human emotions at play—fear, greed, euphoria, and capitulation\n\nThis visualization serves as a constant reminder that markets are ultimately driven by human behavior, and understanding that behavior is key to navigating financial markets successfully."
   }
 ]

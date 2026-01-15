@@ -1,0 +1,166 @@
+---
+title: "Data Visualization & Reflection"
+format:
+  html:
+    toc: false
+---
+
+::: {.hero-section .hero-small}
+::: {.hero-content}
+
+# DATA VISUALIZATION{.glitch-text}
+
+<p class="hero-desc">Bitcoin Price Analysis</p>
+<p class="hero-desc">Added as alternative (No Data Visualization Projects on Hand ATM)</p>
+:::
+:::
+
+::: {.section-container}
+
+## THE VISUALIZATION {.section-title}
+
+::: {.chart-container}
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_btc"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+    "width": "100%",
+    "height": 500,
+    "symbol": "BITSTAMP:BTCUSD",
+    "interval": "D",
+    "timezone": "Asia/Singapore",
+    "theme": "dark",
+    "style": "1",
+    "locale": "en",
+    "toolbar_bg": "#0d0d12",
+    "enable_publishing": false,
+    "hide_top_toolbar": false,
+    "hide_legend": false,
+    "save_image": false,
+    "container_id": "tradingview_btc",
+    "backgroundColor": "#0d0d12"
+  }
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
+:::
+
+::: {.chart-caption}
+**Figure 1:** Bitcoin (BTC) to USD price chart showing daily candlestick data. The visualization displays open, high, low, and close prices over time, with volume data shown below.
+:::
+
+:::
+
+::: {.section-container .dark-section}
+
+## WHAT IS BEING VISUALIZED {.section-title}
+
+::: {.content-block}
+
+This interactive chart visualizes **Bitcoin's price movement against the US Dollar** over time. The data is sourced from Bitstamp, one of the oldest cryptocurrency exchanges, ensuring reliable historical price data.
+
+### Quantitative Data Displayed:
+
+- **Price (Y-axis):** The USD value of one Bitcoin, ranging from historical lows to all-time highs
+- **Time (X-axis):** Chronological progression showing price evolution over days, weeks, months, or years
+- **Candlesticks:** Each candle represents a time period showing four key values:
+  - **Open:** Price at the start of the period
+  - **Close:** Price at the end of the period
+  - **High:** Maximum price reached during the period
+  - **Low:** Minimum price reached during the period
+- **Volume:** The amount of Bitcoin traded during each period, displayed as bars at the bottom
+
+The color coding (green for upward movement, red for downward) provides immediate visual feedback on market sentiment and price direction.
+
+:::
+
+:::
+
+::: {.section-container}
+
+## THE STORY BEHIND THIS {.section-title}
+
+::: {.story-grid}
+
+::: {.story-card}
+### My Introduction to Crypto
+
+My fascination with cryptocurrency began during my polytechnic years when Bitcoin first started making headlines. As someone passionate about technology, the concept of decentralized digital currency built on blockchain technology immediately captured my interest. It wasn't just about the potential financial gains—it was about witnessing a technological revolution unfold in real-time.
+:::
+
+::: {.story-card}
+### Why Bitcoin Matters to Me
+
+Bitcoin represents more than just a digital asset. It's a paradigm shift in how we think about money, trust, and financial systems. As a Fintech student at SIT, understanding cryptocurrency and blockchain technology isn't just a hobby—it's essential knowledge for my future career. The intersection of finance and technology is exactly where I want to be.
+:::
+
+:::
+
+::: {.content-block}
+
+I've spent countless hours analyzing charts, understanding market cycles, and learning about the technology behind various cryptocurrencies. This visualization represents that journey—a visual representation of an asset class that has taught me about markets, volatility, risk management, and the importance of doing your own research.
+
+:::
+
+:::
+
+::: {.section-container .dark-section}
+
+## VISUALIZATION RATIONALE {.section-title}
+
+::: {.rationale-grid}
+
+::: {.rationale-item}
+### Why Candlestick Charts?
+
+Candlestick charts were chosen over simple line charts because they convey **four data points per time period** instead of just one. This provides a much richer understanding of price action, showing not just where the price ended, but the entire journey it took to get there. The visual pattern recognition possible with candlesticks is invaluable for understanding market behavior.
+:::
+
+::: {.rationale-item}
+### Why Include Volume?
+
+Volume is the **heartbeat of the market**. Price movements accompanied by high volume are more significant than those with low volume. Including volume data adds another dimension to the analysis, helping distinguish between meaningful price movements and noise.
+:::
+
+::: {.rationale-item}
+### Why Dark Theme?
+
+Beyond aesthetic preference, the dark theme **reduces eye strain** during extended chart analysis sessions. Most professional traders prefer dark interfaces, and it aligns with the overall gaming-inspired theme of this portfolio website.
+:::
+
+::: {.rationale-item}
+### Why Interactive?
+
+Static images become outdated immediately. An **interactive, real-time chart** allows viewers to explore the data themselves—zooming into specific periods, changing timeframes, and examining exact values. This transforms passive viewing into active exploration.
+:::
+
+:::
+
+:::
+
+::: {.section-container}
+
+## KEY INSIGHTS {.section-title}
+
+::: {.content-block}
+
+Analyzing Bitcoin's price history reveals several important patterns:
+
+1. **Cyclical Nature:** Bitcoin follows roughly 4-year cycles, often correlated with its "halving" events where mining rewards are cut in half
+2. **Volatility:** The dramatic price swings demonstrate both the opportunities and risks in cryptocurrency markets
+3. **Adoption Curve:** The overall upward trend over longer timeframes reflects growing institutional and retail adoption
+4. **Market Psychology:** The chart patterns reveal human emotions at play—fear, greed, euphoria, and capitulation
+
+This visualization serves as a constant reminder that markets are ultimately driven by human behavior, and understanding that behavior is key to navigating financial markets successfully.
+
+:::
+
+:::
+
+::: {.footer-section}
+[© 2025 James Hong | Game On!]{.footer-subtext}
+:::
