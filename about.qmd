@@ -1,9 +1,126 @@
 ---
-title: "About"
+title: "FYP Project"
+format:
+  html:
+    toc: false
 ---
 
-About this site
+::: {.hero-section .hero-small}
+::: {.hero-content}
 
-```{r}
-1 + 1
-```
+# FYP PROJECT {.glitch-text}
+
+<p class="hero-desc">Final Year Project | NYP Infocomm Technology</p>
+
+:::
+:::
+
+::: {.section-container}
+
+## PROJECT OVERVIEW {.section-title}
+
+::: {.project-intro}
+
+### FinYouth - Social Finance App for the Youth
+
+For my Final Year Project at Nanyang Polytechnic, I developed **FinYouth**, an innovative social application designed to bridge the gap between young adults and financial literacy. The app combines social networking features with insurance and financial planning tools, making personal finance more accessible and engaging for the youth demographic.
+
+:::
+
+:::
+
+::: {.section-container .dark-section}
+
+## THE PROBLEM {.section-title}
+
+::: {.content-block}
+
+Financial literacy among young adults in Singapore remains a significant challenge. Many youths find traditional insurance and financial planning intimidating, confusing, or simply boring. They often delay important financial decisions until it's too late, missing out on the benefits of early financial planning.
+
+Research shows that young adults are more likely to engage with content through social platforms. This insight became the foundation for FinYouth—why not meet them where they already are?
+
+:::
+
+:::
+
+::: {.section-container}
+
+## THE SOLUTION {.section-title}
+
+::: {.features-grid}
+
+::: {.feature-card}
+### Social Integration
+Connect with friends to share financial goals, celebrate milestones, and learn from each other's journeys. Financial planning becomes a community experience rather than a solo struggle.
+:::
+
+::: {.feature-card}
+### Insurance Made Simple
+Break down complex insurance products into bite-sized, easy-to-understand modules. Interactive calculators help users determine their coverage needs without the jargon.
+:::
+
+::: {.feature-card}
+### Gamified Savings
+Set savings goals, track progress, and earn achievements. Friendly competition with friends motivates consistent saving habits.
+:::
+
+::: {.feature-card}
+### Financial Education
+Curated content including articles, videos, and quizzes tailored for young adults. Learn about CPF, investments, budgeting, and more in an engaging format.
+:::
+
+:::
+
+:::
+
+::: {.section-container .dark-section}
+
+## TECH STACK {.section-title}
+
+::: {.tech-grid}
+
+::: {.tech-item}
+**Frontend**
+
+React Native
+:::
+
+::: {.tech-item}
+**Backend**
+
+Node.js / Express
+:::
+
+::: {.tech-item}
+**Database**
+
+MongoDB
+:::
+
+::: {.tech-item}
+**Cloud**
+
+AWS
+:::
+
+:::
+
+:::
+
+::: {.section-container}
+
+## KEY LEARNINGS {.section-title}
+
+::: {.content-block}
+
+This project taught me invaluable lessons beyond just coding. I learned to conduct user research, iterate based on feedback, and balance technical feasibility with user needs. Working on a full-stack application from concept to deployment gave me a holistic understanding of the software development lifecycle.
+
+Most importantly, I discovered my passion for creating technology that makes a real difference in people's lives. FinYouth wasn't just a graduation requirement—it was a glimpse into the kind of meaningful work I want to pursue in my career.
+
+:::
+
+:::
+
+::: {.footer-section}
+[© 2025 James Hong | Game On!]{.footer-subtext}
+:::

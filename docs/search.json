@@ -30,9 +30,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "FYP Project",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Final Year Project | NYP Infocomm Technology"
   },
   {
     "objectID": "index.html#origin-story",
@@ -40,5 +40,40 @@
     "title": "Player One",
     "section": "ORIGIN STORY",
     "text": "ORIGIN STORY\n\n\nThe Origin Story\nMy journey into the digital realm began at a young age, where I discovered the magic of video games. What started as button-mashing on my first console quickly evolved into a deep fascination with the technology behind the screens. I wasn’t just playing games—I was wondering how they were made, how the graphics rendered so smoothly, and how online multiplayer could connect players from across the world.\nThis curiosity sparked a passion for technology that would shape my entire future. After completing secondary school, I knew exactly where I wanted to go—Nanyang Polytechnic, where I pursued a diploma in Infocomm Technology. Those three years were transformative, diving deep into programming, networking, and software development. It was there that I truly leveled up my technical skills and confirmed that tech was my calling.\nBut the quest didn’t end there. Hungry for more knowledge and driven to specialize, I enrolled at the Singapore Institute of Technology to pursue a degree in Fintech. Now I’m combining my love for technology with the exciting world of finance, learning about blockchain, digital payments, and the future of financial services. It’s like unlocking a new game mode—challenging, rewarding, and full of possibilities.\nWhen I’m not grinding through assignments or exploring new technologies, you’ll still find me gaming. Some things never change—it’s where I recharge, connect with friends, and remind myself why I fell in love with tech in the first place.\n\n\n\n\n\nProfile Photo"
+  },
+  {
+    "objectID": "about.html#project-overview",
+    "href": "about.html#project-overview",
+    "title": "FYP Project",
+    "section": "PROJECT OVERVIEW",
+    "text": "PROJECT OVERVIEW\n\nFinYouth - Social Finance App for the Youth\nFor my Final Year Project at Nanyang Polytechnic, I developed FinYouth, an innovative social application designed to bridge the gap between young adults and financial literacy. The app combines social networking features with insurance and financial planning tools, making personal finance more accessible and engaging for the youth demographic."
+  },
+  {
+    "objectID": "about.html#the-problem",
+    "href": "about.html#the-problem",
+    "title": "FYP Project",
+    "section": "THE PROBLEM",
+    "text": "THE PROBLEM\n\nFinancial literacy among young adults in Singapore remains a significant challenge. Many youths find traditional insurance and financial planning intimidating, confusing, or simply boring. They often delay important financial decisions until it’s too late, missing out on the benefits of early financial planning.\nResearch shows that young adults are more likely to engage with content through social platforms. This insight became the foundation for FinYouth—why not meet them where they already are?"
+  },
+  {
+    "objectID": "about.html#the-solution",
+    "href": "about.html#the-solution",
+    "title": "FYP Project",
+    "section": "THE SOLUTION",
+    "text": "THE SOLUTION\n\n\nSocial Integration\nConnect with friends to share financial goals, celebrate milestones, and learn from each other’s journeys. Financial planning becomes a community experience rather than a solo struggle.\n\n\nInsurance Made Simple\nBreak down complex insurance products into bite-sized, easy-to-understand modules. Interactive calculators help users determine their coverage needs without the jargon.\n\n\nGamified Savings\nSet savings goals, track progress, and earn achievements. Friendly competition with friends motivates consistent saving habits.\n\n\nFinancial Education\nCurated content including articles, videos, and quizzes tailored for young adults. Learn about CPF, investments, budgeting, and more in an engaging format."
+  },
+  {
+    "objectID": "about.html#tech-stack",
+    "href": "about.html#tech-stack",
+    "title": "FYP Project",
+    "section": "TECH STACK",
+    "text": "TECH STACK\n\n\nFrontend\nReact Native\n\n\nBackend\nNode.js / Express\n\n\nDatabase\nMongoDB\n\n\nCloud\nAWS"
+  },
+  {
+    "objectID": "about.html#key-learnings",
+    "href": "about.html#key-learnings",
+    "title": "FYP Project",
+    "section": "KEY LEARNINGS",
+    "text": "KEY LEARNINGS\n\nThis project taught me invaluable lessons beyond just coding. I learned to conduct user research, iterate based on feedback, and balance technical feasibility with user needs. Working on a full-stack application from concept to deployment gave me a holistic understanding of the software development lifecycle.\nMost importantly, I discovered my passion for creating technology that makes a real difference in people’s lives. FinYouth wasn’t just a graduation requirement—it was a glimpse into the kind of meaningful work I want to pursue in my career."
   }
 ]
