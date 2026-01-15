@@ -8,7 +8,7 @@ format:
 ::: {.hero-section .hero-small}
 ::: {.hero-content}
 
-# DATA VISUALIZATION{.glitch-text}
+# DATA VISUALIZATION & REFLECTION{.glitch-text}
 
 <p class="hero-desc">Bitcoin Price Analysis</p>
 <p class="hero-desc">Added as alternative (No Data Visualization Projects on Hand ATM)</p>
@@ -156,6 +156,18 @@ Analyzing Bitcoin's price history reveals several important patterns:
 4. **Market Psychology:** The chart patterns reveal human emotions at play—fear, greed, euphoria, and capitulation
 
 This visualization serves as a constant reminder that markets are ultimately driven by human behavior, and understanding that behavior is key to navigating financial markets successfully.
+
+:::
+
+:::
+
+::: {.section-container}
+
+## REFLECTION {.section-title}
+
+::: {.content-block}
+
+I used Claude as my GenAI tool for this assessment because it was easily accessible and could assist with content generation. It helped me especially in filling out text for the website, which reduced a lot of repetitive cognitive workload. The tool is beneficial because it makes drafting faster and more efficient, but it can also be challenging at times as it is still a new technology and may produce unintended results. Overall, I can see GenAI tools supporting my future studies or work by speeding up ideation, drafting, and other routine tasks so I can focus on higher-level thinking. No other thoughts to add.
 
 :::
 
